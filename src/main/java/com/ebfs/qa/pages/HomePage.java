@@ -16,6 +16,9 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath = HomePageProperties.LNK_CONTACT_US_XPATH)
 	WebElement contactsLink;
+
+	@FindBy(xpath = HomePageProperties.LNK_SIGN_IN_XPATH)
+	WebElement signInLink;
 	
 
 	// Initializing the Page Objects:
@@ -35,6 +38,11 @@ public class HomePage extends TestBase {
 	public ContactsPage clickOnContactsLink(){
 		contactsLink.click();
 		return new ContactsPage();
+	}
+
+	public SignInPage clickOnSignInLink(){
+		signInLink.click();
+		return new SignInPage();
 	}
 	
 		

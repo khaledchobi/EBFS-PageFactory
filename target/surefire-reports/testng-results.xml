@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-30T21:41:05Z" name="EBFS Application Test Automation Test Suite" finished-at="2020-12-30T21:41:36Z" duration-ms="30988">
+    <groups>
+    </groups>
+    <test started-at="2020-12-30T21:41:05Z" name="EBFS App Test Cases" finished-at="2020-12-30T21:41:36Z" duration-ms="30988">
+      <class name="com.ebfs.qa.testcases.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ContactsPageTest@8b87145]" started-at="2020-12-30T21:41:21Z" name="setUp" finished-at="2020-12-30T21:41:26Z" duration-ms="5163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsPageLabel()[pri:1, instance:com.ebfs.qa.testcases.ContactsPageTest@8b87145]" started-at="2020-12-30T21:41:26Z" name="verifyContactsPageLabel" finished-at="2020-12-30T21:41:26Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.ContactsPageTest@8b87145]" started-at="2020-12-30T21:41:26Z" name="tearDown" finished-at="2020-12-30T21:41:27Z" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebfs.qa.testcases.ContactsPageTest -->
+      <class name="com.ebfs.qa.testcases.SignInPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.SignInPageTest@6483f5ae]" started-at="2020-12-30T21:41:05Z" name="setUp" finished-at="2020-12-30T21:41:13Z" duration-ms="8584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.ebfs.qa.testcases.SignInPageTest@6483f5ae]" started-at="2020-12-30T21:41:13Z" name="verifyLogin" finished-at="2020-12-30T21:41:17Z" duration-ms="4095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.SignInPageTest@6483f5ae]" started-at="2020-12-30T21:41:17Z" name="close" finished-at="2020-12-30T21:41:17Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ebfs.qa.testcases.SignInPageTest -->
+      <class name="com.ebfs.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@5fcd892a]" started-at="2020-12-30T21:41:17Z" name="setUp" finished-at="2020-12-30T21:41:21Z" duration-ms="3746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.ebfs.qa.testcases.HomePageTest@5fcd892a]" started-at="2020-12-30T21:41:21Z" name="verifyHomePageTitleTest" finished-at="2020-12-30T21:41:21Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@5fcd892a]" started-at="2020-12-30T21:41:21Z" name="tearDown" finished-at="2020-12-30T21:41:21Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@5fcd892a]" started-at="2020-12-30T21:41:27Z" name="setUp" finished-at="2020-12-30T21:41:31Z" duration-ms="3902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoTest()[pri:2, instance:com.ebfs.qa.testcases.HomePageTest@5fcd892a]" started-at="2020-12-30T21:41:31Z" name="verifyLogoTest" finished-at="2020-12-30T21:41:31Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@5fcd892a]" started-at="2020-12-30T21:41:31Z" name="tearDown" finished-at="2020-12-30T21:41:31Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@5fcd892a]" started-at="2020-12-30T21:41:31Z" name="setUp" finished-at="2020-12-30T21:41:34Z" duration-ms="3731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactUsLinkTest()[pri:3, instance:com.ebfs.qa.testcases.HomePageTest@5fcd892a]" started-at="2020-12-30T21:41:34Z" name="verifyContactUsLinkTest" finished-at="2020-12-30T21:41:36Z" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@5fcd892a]" started-at="2020-12-30T21:41:36Z" name="tearDown" finished-at="2020-12-30T21:41:36Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebfs.qa.testcases.HomePageTest -->
+    </test> <!-- EBFS App Test Cases -->
+  </suite> <!-- EBFS Application Test Automation Test Suite -->
+</testng-results>

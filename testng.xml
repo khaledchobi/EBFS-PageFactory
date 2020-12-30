@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="EBFS Application Test Automation Test Suite">
+<suite name="EBFS Application Test Automation Test Suite" parallel="tests">
 
 	<listeners>
 		<listener class-name="com.qa.ExtentReportListener.TestListener" />
@@ -11,6 +11,7 @@
 		<classes>			
 			<class name="com.ebfs.qa.testcases.HomePageTest"></class>
 			<class name="com.ebfs.qa.testcases.ContactsPageTest"></class>
+			<class name="com.ebfs.qa.testcases.SignInPageTest"></class>
 
 		</classes>
 	</test>
