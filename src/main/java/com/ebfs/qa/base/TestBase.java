@@ -14,7 +14,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import com.ebfs.qa.util.WebEventListener;
 import com.ebfs.qa.properties.TestBaseProperties;
 import com.ebfs.qa.properties.TestUtilProperties;
-
+import org.testng.Assert;
 
 
 public class TestBase {
@@ -71,10 +71,7 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 		
 	}
-	
-	
-	
-	
+
 	
 	
 	

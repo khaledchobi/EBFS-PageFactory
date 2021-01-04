@@ -37,7 +37,7 @@ public class SignInPageTest extends TestBase {
     }
 
     @Test
-    public void verifyLogin() throws Exception {
+    public void verifyLogin() throws Exception { // 1.3. Registered user should be able to Login from Home Page.
 
         /*String email = "khaledhasanb@gmail.com";
         String password = "khaled1234567890";*/
