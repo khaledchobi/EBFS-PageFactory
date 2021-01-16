@@ -1,245 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-04T06:24:39Z" name="EBFS Application Test Automation Test Suite" finished-at="2021-01-04T06:28:36Z" duration-ms="237521">
+  <suite started-at="2021-01-15T21:15:18Z" name="EBFS Application Test Automation Test Suite" finished-at="2021-01-15T21:26:06Z" duration-ms="647553">
     <groups>
     </groups>
-    <test started-at="2021-01-04T06:24:39Z" name="EBFS App Test Cases" finished-at="2021-01-04T06:28:36Z" duration-ms="237521">
-      <class name="com.ebfs.qa.testcases.ContactsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ContactsPageTest@5e955596]" started-at="2021-01-04T06:24:52Z" name="setUp" finished-at="2021-01-04T06:24:57Z" duration-ms="4799" status="PASS">
+    <test started-at="2021-01-15T21:15:18Z" name="EBFS App Test Cases" finished-at="2021-01-15T21:26:06Z" duration-ms="647553">
+      <class name="com.ebfs.qa.testcases.ProductCategoryPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:15:18Z" name="setUp" finished-at="2021-01-15T21:15:22Z" duration-ms="4177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyContactsPageLabel()[pri:1, instance:com.ebfs.qa.testcases.ContactsPageTest@5e955596]" started-at="2021-01-04T06:24:57Z" name="verifyContactsPageLabel" finished-at="2021-01-04T06:24:57Z" duration-ms="33" status="PASS">
+        <test-method signature="verifyNavigateToProductCategoryPageTest()[pri:20, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:15:22Z" name="verifyNavigateToProductCategoryPageTest" finished-at="2021-01-15T21:15:51Z" duration-ms="28280" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactsPageLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.ContactsPageTest@5e955596]" started-at="2021-01-04T06:24:57Z" name="tearDown" finished-at="2021-01-04T06:24:57Z" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ebfs.qa.testcases.ContactsPageTest -->
-      <class name="com.ebfs.qa.testcases.SignInPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.SignInPageTest@50de0926]" started-at="2021-01-04T06:24:39Z" name="setUp" finished-at="2021-01-04T06:24:44Z" duration-ms="5731" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.ebfs.qa.testcases.SignInPageTest@50de0926]" started-at="2021-01-04T06:24:44Z" name="verifyLogin" finished-at="2021-01-04T06:24:48Z" duration-ms="3670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.SignInPageTest@50de0926]" started-at="2021-01-04T06:24:48Z" name="close" finished-at="2021-01-04T06:24:48Z" duration-ms="95" status="PASS">
+        </test-method> <!-- verifyNavigateToProductCategoryPageTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:15:51Z" name="close" finished-at="2021-01-15T21:15:51Z" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.ebfs.qa.testcases.SignInPageTest -->
-      <class name="com.ebfs.qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:24:48Z" name="setUp" finished-at="2021-01-04T06:24:52Z" duration-ms="3851" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:15:51Z" name="setUp" finished-at="2021-01-15T21:15:54Z" duration-ms="3703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:24:52Z" name="verifyHomePageTitleTest" finished-at="2021-01-04T06:24:52Z" duration-ms="6" status="PASS">
+        <test-method signature="verifySubCategoryLinkTest()[pri:21, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:15:54Z" name="verifySubCategoryLinkTest" finished-at="2021-01-15T21:16:29Z" duration-ms="34199" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:24:52Z" name="tearDown" finished-at="2021-01-04T06:24:52Z" duration-ms="136" status="PASS">
+        </test-method> <!-- verifySubCategoryLinkTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:16:29Z" name="close" finished-at="2021-01-15T21:16:29Z" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:24:57Z" name="setUp" finished-at="2021-01-04T06:25:01Z" duration-ms="3717" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLogoTest()[pri:2, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:01Z" name="verifyLogoTest" finished-at="2021-01-04T06:25:01Z" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:01Z" name="tearDown" finished-at="2021-01-04T06:25:01Z" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:01Z" name="setUp" finished-at="2021-01-04T06:25:05Z" duration-ms="3833" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:16:29Z" name="setUp" finished-at="2021-01-15T21:16:33Z" duration-ms="3730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNavigateWomenLinkTest()[pri:3, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:05Z" name="verifyNavigateWomenLinkTest" finished-at="2021-01-04T06:25:10Z" duration-ms="5530" status="PASS">
+        <test-method signature="verifySortFunctionalityTest()[pri:22, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:16:33Z" name="verifySortFunctionalityTest" finished-at="2021-01-15T21:17:05Z" duration-ms="32381" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigateWomenLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:10Z" name="tearDown" finished-at="2021-01-04T06:25:10Z" duration-ms="96" status="PASS">
+        </test-method> <!-- verifySortFunctionalityTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:17:05Z" name="close" finished-at="2021-01-15T21:17:05Z" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:10Z" name="setUp" finished-at="2021-01-04T06:25:14Z" duration-ms="3705" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyNavigateDressLinkTest()[pri:4, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:14Z" name="verifyNavigateDressLinkTest" finished-at="2021-01-04T06:25:14Z" duration-ms="24" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNavigateDressLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:14Z" name="tearDown" finished-at="2021-01-04T06:25:14Z" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:14Z" name="setUp" finished-at="2021-01-04T06:25:18Z" duration-ms="3747" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:17:05Z" name="setUp" finished-at="2021-01-15T21:17:09Z" duration-ms="3593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNavigateTshirtsLinkTest()[pri:5, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:18Z" name="verifyNavigateTshirtsLinkTest" finished-at="2021-01-04T06:25:18Z" duration-ms="24" status="PASS">
+        <test-method signature="verifyGridOrListViewTest()[pri:23, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:17:09Z" name="verifyGridOrListViewTest" finished-at="2021-01-15T21:17:29Z" duration-ms="20043" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigateTshirtsLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:18Z" name="tearDown" finished-at="2021-01-04T06:25:18Z" duration-ms="88" status="PASS">
+        </test-method> <!-- verifyGridOrListViewTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:17:29Z" name="close" finished-at="2021-01-15T21:17:29Z" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:18Z" name="setUp" finished-at="2021-01-04T06:25:22Z" duration-ms="3671" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyNavigateBruteForceLinkTest()[pri:6, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:22Z" name="verifyNavigateBruteForceLinkTest" finished-at="2021-01-04T06:25:22Z" duration-ms="23" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNavigateBruteForceLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:22Z" name="tearDown" finished-at="2021-01-04T06:25:22Z" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:22Z" name="setUp" finished-at="2021-01-04T06:25:25Z" duration-ms="3743" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:17:29Z" name="setUp" finished-at="2021-01-15T21:17:33Z" duration-ms="4093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyFeatureProductsVisibleTest()[pri:7, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:25Z" name="verifyFeatureProductsVisibleTest" finished-at="2021-01-04T06:25:25Z" duration-ms="24" status="PASS">
+        <test-method signature="verifyNumberOfProductsViewTest()[pri:24, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:17:33Z" name="verifyNumberOfProductsViewTest" finished-at="2021-01-15T21:17:41Z" duration-ms="7862" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFeatureProductsVisibleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:25Z" name="tearDown" finished-at="2021-01-04T06:25:26Z" duration-ms="90" status="PASS">
+        </test-method> <!-- verifyNumberOfProductsViewTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:17:41Z" name="close" finished-at="2021-01-15T21:17:41Z" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:26Z" name="setUp" finished-at="2021-01-04T06:25:29Z" duration-ms="3798" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyCheckoutCartVisibleTest()[pri:8, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:29Z" name="verifyCheckoutCartVisibleTest" finished-at="2021-01-04T06:25:29Z" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCheckoutCartVisibleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:29Z" name="tearDown" finished-at="2021-01-04T06:25:29Z" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:29Z" name="setUp" finished-at="2021-01-04T06:25:33Z" duration-ms="3780" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:17:41Z" name="setUp" finished-at="2021-01-15T21:17:45Z" duration-ms="3844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyQuickViewLinkTest()[pri:9, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:33Z" name="verifyQuickViewLinkTest" finished-at="2021-01-04T06:25:49Z" duration-ms="15779" status="PASS">
+        <test-method signature="verifyFilterProductsLeftNavigationTest()[pri:25, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:17:45Z" name="verifyFilterProductsLeftNavigationTest" finished-at="2021-01-15T21:18:28Z" duration-ms="42980" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyQuickViewLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:49Z" name="tearDown" finished-at="2021-01-04T06:25:49Z" duration-ms="93" status="PASS">
+        </test-method> <!-- verifyFilterProductsLeftNavigationTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:18:28Z" name="close" finished-at="2021-01-15T21:18:28Z" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:49Z" name="setUp" finished-at="2021-01-04T06:25:53Z" duration-ms="4077" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyProductWishListTest()[pri:10, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:25:53Z" name="verifyProductWishListTest" finished-at="2021-01-04T06:26:35Z" duration-ms="41417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductWishListTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:26:35Z" name="tearDown" finished-at="2021-01-04T06:26:35Z" duration-ms="98" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:26:35Z" name="setUp" finished-at="2021-01-04T06:26:39Z" duration-ms="3799" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:18:28Z" name="setUp" finished-at="2021-01-15T21:18:32Z" duration-ms="3804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDetailOrderViewLinkTest()[pri:11, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:26:39Z" name="verifyDetailOrderViewLinkTest" finished-at="2021-01-04T06:26:54Z" duration-ms="15557" status="PASS">
+        <test-method signature="verifyFilterProductsPriceRangeTest()[pri:26, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:18:32Z" name="verifyFilterProductsPriceRangeTest" finished-at="2021-01-15T21:18:46Z" duration-ms="14680" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDetailOrderViewLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:26:54Z" name="tearDown" finished-at="2021-01-04T06:26:54Z" duration-ms="94" status="PASS">
+        </test-method> <!-- verifyFilterProductsPriceRangeTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:18:46Z" name="close" finished-at="2021-01-15T21:18:46Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:26:54Z" name="setUp" finished-at="2021-01-04T06:26:58Z" duration-ms="3778" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyContactUsLinkTest()[pri:12, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:26:58Z" name="verifyContactUsLinkTest" finished-at="2021-01-04T06:26:59Z" duration-ms="1053" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactUsLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:26:59Z" name="tearDown" finished-at="2021-01-04T06:26:59Z" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:26:59Z" name="setUp" finished-at="2021-01-04T06:27:03Z" duration-ms="3677" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:18:46Z" name="setUp" finished-at="2021-01-15T21:18:55Z" duration-ms="8304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyBestSellerLinkTest()[pri:13, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:03Z" name="verifyBestSellerLinkTest" finished-at="2021-01-04T06:27:25Z" duration-ms="21758" status="PASS">
+        <test-method signature="verifyDiscoverOurStoresLinkTest()[pri:27, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:18:55Z" name="verifyDiscoverOurStoresLinkTest" finished-at="2021-01-15T21:19:00Z" duration-ms="4975" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBestSellerLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:25Z" name="tearDown" finished-at="2021-01-04T06:27:25Z" duration-ms="104" status="PASS">
+        </test-method> <!-- verifyDiscoverOurStoresLinkTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:00Z" name="close" finished-at="2021-01-15T21:19:00Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:25Z" name="setUp" finished-at="2021-01-04T06:27:28Z" duration-ms="3734" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:28Z" name="tearDown" finished-at="2021-01-04T06:27:28Z" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyNewsLetterLinkTest()[pri:14, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:28Z" name="verifyNewsLetterLinkTest" finished-at="2021-01-04T06:27:28Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNewsLetterLinkTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:28Z" name="setUp" finished-at="2021-01-04T06:27:32Z" duration-ms="3813" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:00Z" name="setUp" finished-at="2021-01-15T21:19:03Z" duration-ms="3753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchBoxTest()[pri:15, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:32Z" name="verifySearchBoxTest" finished-at="2021-01-04T06:27:39Z" duration-ms="6869" status="PASS">
+        <test-method signature="verifyMouseOverProductViewTest()[pri:28, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:03Z" name="verifyMouseOverProductViewTest" finished-at="2021-01-15T21:19:10Z" duration-ms="6192" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchBoxTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:39Z" name="tearDown" finished-at="2021-01-04T06:27:39Z" duration-ms="92" status="PASS">
+        </test-method> <!-- verifyMouseOverProductViewTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:10Z" name="close" finished-at="2021-01-15T21:19:10Z" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:39Z" name="setUp" finished-at="2021-01-04T06:27:43Z" duration-ms="3723" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyFollowFacebookLinkTest()[pri:16, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:27:43Z" name="verifyFollowFacebookLinkTest" finished-at="2021-01-04T06:28:04Z" duration-ms="20740" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFollowFacebookLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:28:04Z" name="tearDown" finished-at="2021-01-04T06:28:04Z" duration-ms="125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:28:04Z" name="setUp" finished-at="2021-01-04T06:28:08Z" duration-ms="4387" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:10Z" name="setUp" finished-at="2021-01-15T21:19:15Z" duration-ms="5044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegistrationProcessTest()[pri:17, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:28:08Z" name="verifyRegistrationProcessTest" finished-at="2021-01-04T06:28:36Z" duration-ms="27747" status="PASS">
+        <test-method signature="verifyInOrOutOfStockIconViewTest()[pri:29, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:15Z" name="verifyInOrOutOfStockIconViewTest" finished-at="2021-01-15T21:19:26Z" duration-ms="10775" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegistrationProcessTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.HomePageTest@1cab0bfb]" started-at="2021-01-04T06:28:36Z" name="tearDown" finished-at="2021-01-04T06:28:36Z" duration-ms="93" status="PASS">
+        </test-method> <!-- verifyInOrOutOfStockIconViewTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:26Z" name="close" finished-at="2021-01-15T21:19:26Z" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ebfs.qa.testcases.HomePageTest -->
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:26Z" name="setUp" finished-at="2021-01-15T21:19:30Z" duration-ms="3831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMouseOverProductQuickViewTest()[pri:30, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:30Z" name="verifyMouseOverProductQuickViewTest" finished-at="2021-01-15T21:19:39Z" duration-ms="9166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMouseOverProductQuickViewTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:39Z" name="close" finished-at="2021-01-15T21:19:39Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:39Z" name="setUp" finished-at="2021-01-15T21:19:43Z" duration-ms="4063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDifferentLinkInformationTest()[pri:31, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:43Z" name="verifyDifferentLinkInformationTest" finished-at="2021-01-15T21:19:54Z" duration-ms="10936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDifferentLinkInformationTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:54Z" name="close" finished-at="2021-01-15T21:19:54Z" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:54Z" name="setUp" finished-at="2021-01-15T21:19:58Z" duration-ms="3777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddMultipleProductToCartTest()[pri:32, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:19:58Z" name="verifyAddMultipleProductToCartTest" finished-at="2021-01-15T21:20:55Z" duration-ms="57482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddMultipleProductToCartTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:20:55Z" name="close" finished-at="2021-01-15T21:20:55Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:20:55Z" name="setUp" finished-at="2021-01-15T21:20:59Z" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductAddedCartUpdatedTest()[pri:33, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:20:59Z" name="verifyProductAddedCartUpdatedTest" finished-at="2021-01-15T21:22:23Z" duration-ms="84000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedCartUpdatedTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:22:23Z" name="close" finished-at="2021-01-15T21:22:24Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:22:24Z" name="setUp" finished-at="2021-01-15T21:22:28Z" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductOverlayCheckOutButtonTest()[pri:34, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:22:28Z" name="verifyProductOverlayCheckOutButtonTest" finished-at="2021-01-15T21:23:44Z" duration-ms="76593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductOverlayCheckOutButtonTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:23:44Z" name="close" finished-at="2021-01-15T21:23:44Z" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:23:44Z" name="setUp" finished-at="2021-01-15T21:23:48Z" duration-ms="3970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckOutButtonNavigateToShoppingCartTest()[pri:35, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:23:48Z" name="verifyCheckOutButtonNavigateToShoppingCartTest" finished-at="2021-01-15T21:26:06Z" duration-ms="137259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOutButtonNavigateToShoppingCartTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebfs.qa.testcases.ProductCategoryPageTest@5f71c76a]" started-at="2021-01-15T21:26:06Z" name="close" finished-at="2021-01-15T21:26:06Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ebfs.qa.testcases.ProductCategoryPageTest -->
     </test> <!-- EBFS App Test Cases -->
   </suite> <!-- EBFS Application Test Automation Test Suite -->
 </testng-results>

@@ -4,6 +4,7 @@ import com.aventstack.extentreports.Status;
 import com.ebfs.qa.base.TestBase;
 import com.ebfs.qa.pages.HomePage;
 import com.ebfs.qa.pages.SignInPage;
+import com.ebfs.qa.properties.HomePageProperties;
 import com.ebfs.qa.properties.TestUtilProperties;
 import com.ebfs.qa.util.TestUtil;
 import com.qa.ExtentReportListener.ExtentTestManager;
@@ -32,11 +33,11 @@ public class SignInPageTest extends TestBase {
         testUtil = new TestUtil();
         signInPage = new SignInPage();
         homePage = new HomePage();
-        signInPage = homePage.clickOnSignInLink();
+        //signInPage = homePage.clickOnSignInLink(); // This link clicked for Sign In Page
 
     }
 
-    @Test
+    @Test(priority = 18)
     public void verifyLogin() throws Exception { // 1.3. Registered user should be able to Login from Home Page.
 
         /*String email = "khaledhasanb@gmail.com";
@@ -49,17 +50,17 @@ public class SignInPageTest extends TestBase {
         ExtentTestManager.getTest().log(Status.INFO, "Verify Sign In Page");
 
 
-        WebElement signIn = driver.findElement(By.linkText("Sign in"));
+        WebElement signIn = driver.findElement(By.xpath(HomePageProperties.LNK_SIGN_IN_XPATH));
         signIn.click();
 
-        WebElement txtBxEmail = driver.findElement(By.xpath("//input[@id='email']"));
+        WebElement txtBxEmail = driver.findElement(By.xpath(HomePageProperties.SIGN_IN_EMAIL_XPATH));
         txtBxEmail.sendKeys(email);
 
-        WebElement txtBxPassword =driver.findElement(By.xpath("//input[@id='passwd']"));
+        WebElement txtBxPassword =driver.findElement(By.xpath(HomePageProperties.SIGN_IN_PASSWORD_XPATH));
         txtBxPassword.sendKeys(password);
 
 
-        driver.findElement(By.id("SubmitLogin")).click();
+        driver.findElement(By.xpath(HomePageProperties.BTN_SIGN_IN_XPATH)).click();
 
 
         //testUtil.setCellData("Pass", 1,3, TestUtilProperties.TESTDATA_SHEET_PATH);

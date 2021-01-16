@@ -21,6 +21,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = HomePageProperties.LNK_SIGN_IN_XPATH)
 	WebElement signInLink;
 
+	@FindBy(xpath = HomePageProperties.LNK_PRODUCT_CATEGORY_XPATH)
+	WebElement productCategoryLink;
+
 	@FindBy(xpath = HomePageProperties.NEWS_LETTER_SUCCESS_XPATH)
 	WebElement newsLetterSuccess;
 
@@ -107,6 +110,11 @@ public class HomePage extends TestBase {
 	public SignInPage clickOnSignInLink(){
 		signInLink.click();
 		return new SignInPage();
+	}
+
+	public ProductCategoryPage clickOnProductCategoryLink(){
+		productCategoryLink.click();
+		return new ProductCategoryPage();
 	}
 
 	public boolean verifyNewsLetterSuccessDisplayed(){

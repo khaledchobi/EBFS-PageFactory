@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="237.951" tests="19" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="648.19" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12-46"/>
@@ -56,23 +56,20 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="verifyLogin" classname="com.ebfs.qa.testcases.SignInPageTest" time="3.596"/>
-  <testcase name="verifyHomePageTitleTest" classname="com.ebfs.qa.testcases.HomePageTest" time="0.005"/>
-  <testcase name="verifyContactsPageLabel" classname="com.ebfs.qa.testcases.ContactsPageTest" time="0.034"/>
-  <testcase name="verifyLogoTest" classname="com.ebfs.qa.testcases.HomePageTest" time="0.025"/>
-  <testcase name="verifyNavigateWomenLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="5.53"/>
-  <testcase name="verifyNavigateDressLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="0.024"/>
-  <testcase name="verifyNavigateTshirtsLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="0.024"/>
-  <testcase name="verifyNavigateBruteForceLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="0.024"/>
-  <testcase name="verifyFeatureProductsVisibleTest" classname="com.ebfs.qa.testcases.HomePageTest" time="0.024"/>
-  <testcase name="verifyCheckoutCartVisibleTest" classname="com.ebfs.qa.testcases.HomePageTest" time="0.046"/>
-  <testcase name="verifyQuickViewLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="15.779"/>
-  <testcase name="verifyProductWishListTest" classname="com.ebfs.qa.testcases.HomePageTest" time="41.416"/>
-  <testcase name="verifyDetailOrderViewLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="15.556"/>
-  <testcase name="verifyContactUsLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="1.052"/>
-  <testcase name="verifyBestSellerLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="21.759"/>
-  <testcase name="verifyNewsLetterLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="0"/>
-  <testcase name="verifySearchBoxTest" classname="com.ebfs.qa.testcases.HomePageTest" time="6.869"/>
-  <testcase name="verifyFollowFacebookLinkTest" classname="com.ebfs.qa.testcases.HomePageTest" time="20.74"/>
-  <testcase name="verifyRegistrationProcessTest" classname="com.ebfs.qa.testcases.HomePageTest" time="27.747"/>
+  <testcase name="verifyNavigateToProductCategoryPageTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="28.209"/>
+  <testcase name="verifySubCategoryLinkTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="34.2"/>
+  <testcase name="verifySortFunctionalityTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="32.382"/>
+  <testcase name="verifyGridOrListViewTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="20.043"/>
+  <testcase name="verifyNumberOfProductsViewTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="7.863"/>
+  <testcase name="verifyFilterProductsLeftNavigationTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="42.98"/>
+  <testcase name="verifyFilterProductsPriceRangeTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="14.681"/>
+  <testcase name="verifyDiscoverOurStoresLinkTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="4.975"/>
+  <testcase name="verifyMouseOverProductViewTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="6.193"/>
+  <testcase name="verifyInOrOutOfStockIconViewTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="10.776"/>
+  <testcase name="verifyMouseOverProductQuickViewTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="9.166"/>
+  <testcase name="verifyDifferentLinkInformationTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="10.937"/>
+  <testcase name="verifyAddMultipleProductToCartTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="57.481"/>
+  <testcase name="verifyProductAddedCartUpdatedTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="84"/>
+  <testcase name="verifyProductOverlayCheckOutButtonTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="76.593"/>
+  <testcase name="verifyCheckOutButtonNavigateToShoppingCartTest" classname="com.ebfs.qa.testcases.ProductCategoryPageTest" time="137.259"/>
 </testsuite>
