@@ -46,7 +46,7 @@ public class ContactsPageTest extends TestBase{
 		contactsPage = homePage.clickOnContactsLink();
 	}
 	
-	@Test(priority=19)
+	@Test(priority=1)
 	public void verifyContactsPageLabel(){
 		ExtentTestManager.getTest().log(Status.INFO, "Verify Contact Us Page Label");
 		Assert.assertTrue(contactsPage.verifyContactsLabel(), ContactsPageTestProperties.ERROR_MSG);
