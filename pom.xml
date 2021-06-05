@@ -18,8 +18,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.1</version>
 				<configuration>
-					<source>11</source>
-					<target>11</target>
+					<source>14</source>
+					<target>14</target>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -55,10 +55,7 @@
 		    <groupId>org.testng</groupId>
 		    <artifactId>testng</artifactId>
 		    <version>6.14.3</version>
-
 		</dependency>
-
-
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -66,53 +63,24 @@
 			<version>3.17</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>3.9</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.17</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml-schemas</artifactId>
-			<version>3.17</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-scratchpad</artifactId>
-			<version>3.9</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>ooxml-schemas</artifactId>
-			<version>1.1</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
-			<artifactId>openxml4j</artifactId>
-			<version>1.0-beta</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.17</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>3.17</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml-schemas</artifactId>
 			<version>3.17</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-scratchpad</artifactId>
-			<version>3.9</version>
-		</dependency>
+
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>ooxml-schemas</artifactId>
@@ -125,7 +93,7 @@
 			<version>1.0-beta</version>
 		</dependency>
 
-		
+
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
@@ -139,7 +107,11 @@
 			<version>2.6</version>
 		</dependency>
 
-
+		<!--<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.19.1</version>
+		</dependency>-->
 
     </dependencies>
 </project>

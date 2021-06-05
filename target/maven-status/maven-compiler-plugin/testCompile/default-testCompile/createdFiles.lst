@@ -1,0 +1,9 @@
+com/ebfs/qa/testcase/properties/ProductCategoryPageTestProperties.class
+com/ebfs/qa/testcase/properties/SignInPageTestProperties.class
+com/ebfs/qa/testcase/properties/HomePageTestProperties.class
+com/ebfs/qa/testcases/ProductCartSummaryTest.class
+com/ebfs/qa/testcases/SignInPageTest.class
+com/ebfs/qa/testcases/ProductCategoryPageTest.class
+com/ebfs/qa/testcases/HomePageTest.class
+com/ebfs/qa/testcase/properties/ContactsPageTestProperties.class
+com/ebfs/qa/testcases/ContactsPageTest.class

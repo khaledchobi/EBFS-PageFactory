@@ -14,14 +14,14 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import com.ebfs.qa.util.WebEventListener;
 import com.ebfs.qa.properties.TestBaseProperties;
 import com.ebfs.qa.properties.TestUtilProperties;
-
+import org.testng.Assert;
 
 
 public class TestBase {
 	
 	public static WebDriver driver;
 	public static Properties prop;
-	public  static EventFiringWebDriver e_driver;
+	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	
 	public TestBase(){
@@ -63,18 +63,15 @@ public class TestBase {
 		e_driver.register(eventListener);
 		driver = e_driver;
 		
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
+		//driver.manage().window().maximize();
+		//driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtilProperties.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtilProperties.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		
 		driver.get(prop.getProperty("url"));
 		
 	}
-	
-	
-	
-	
+
 	
 	
 	

@@ -5,6 +5,10 @@
 		<classes>			
 			<class name="com.ebfs.qa.testcases.HomePageTest"></class>
 			<class name="com.ebfs.qa.testcases.ContactsPageTest"></class>
+			<class name="com.ebfs.qa.testcases.SignInPageTest"></class>
+			<class name="com.ebfs.qa.testcases.ProductCategoryPageTest"></class>
+			<class name="com.ebfs.qa.testcases.ProductCartSummaryTest"></class>
+
 		</classes>
 	</test>
 </suite>
