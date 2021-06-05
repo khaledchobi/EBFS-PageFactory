@@ -3,24 +3,32 @@ package com.qa.ExtentReportListener;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
+import com.ebfs.qa.base.TestBase;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+import org.testng.*;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
+import org.testng.annotations.AfterMethod;
+import org.testng.xml.XmlSuite;
 
 
-
-public class TestListener implements ITestListener {
+public class TestListener extends TestBase implements ITestListener {
 	final Logger log = LogManager.getLogger(TestListener.class.getName());
+
+	private static String getTestMethodName(ITestResult iTestResult) {
+		return iTestResult.getMethod().getConstructorOrMethod().getName();
+	}
 
 	public void onStart(ITestContext context) {
 		log.info("*** Test Suite " + context.getName() + " started ***");
@@ -100,5 +108,6 @@ public class TestListener implements ITestListener {
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		System.out.println("*** Test failed but within percentage % " + result.getMethod().getMethodName());
 	}
+
 
 }

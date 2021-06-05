@@ -45,7 +45,7 @@ public class ProductCategoryPageTest extends TestBase {
 
     }
 
-    @Test(priority = 20)
+    //@Test(priority = 20, groups = {"SmokeTest"})
     public void verifyNavigateToProductCategoryPageTest() throws InterruptedException {
         // 2.1. User should be able to navigate to one of the product category page by clicking Dresses/T-Shirts.
         ExtentTestManager.getTest().log(Status.INFO, "Verify Product Category Page");

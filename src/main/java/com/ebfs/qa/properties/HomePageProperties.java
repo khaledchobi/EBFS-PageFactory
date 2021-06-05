@@ -14,6 +14,8 @@ public interface HomePageProperties {
 	public final String SIGN_IN_EMAIL_XPATH = ("//input[@id='email']");
 	public final String SIGN_IN_PASSWORD_XPATH = ("//input[@id='passwd']");
 
+	public final String ERR_MESSAGE = ("//div[@class='alert alert-danger']//li");
+
 	public final String REGISTRATION_EMAIL_XPATH = ("//input[@id='email_create']");
 	public final String BTN_CREATE_AN_ACCOUNT_XPATH = ("//button[@id='SubmitCreate']");
 	public final String BTN_RADIO_MALE_XPATH = ("//input[@id='id_gender1']");
@@ -27,6 +29,10 @@ public interface HomePageProperties {
 	public final String REGISTRATION_CHECKBOX_NEWSLETTER_XPATH = ("//input[@id='newsletter']");
 	public final String REGISTRATION_CHECKBOX_OPTION_XPATH = ("//input[@id='optin']");
 	public final String BTN_REGISTER_ACCOUNT_XPATH = ("//button[@id='submitAccount']");
+	public final String TXT_REGISTRATION_CONFIRMATION_ACCOUNT_XPATH = ("//div[@id='center_column']/p[1]");
+	public final String TXT_REGISTRATION_SUCCESS_EMAIL_XPATH = ("//div[@id='noSlide']/h1");
+	public final String TXT_REGISTRATION_ERR_EMAIL_XPATH = ("//div[@id='create_account_error']/ol/li");
+
 
 	public final String BTN_LNK_ACCOUNT_MY_WISHLISTS_XPATH = "//a[@title='My wishlists']";
 	public final String MY_WISHLISTS_ITEM_SAVE_XPATH = "//a[@title='Save']";
@@ -43,6 +49,7 @@ public interface HomePageProperties {
 	public final String TXT_BOX_EMAIL_FOR_NEWSLETTER_XPATH = ("//input[@id='newsletter-input']");
 	public final String BTN_SUBMIT_NEWSLETTER_XPATH = ("//button[@name='submitNewsletter']");
 	public final String NEWS_LETTER_SUCCESS_XPATH = ("//p[contains(text(),'Newsletter : You have successfully subscribed to this newsletter.')]");
+	public final String NEWS_LETTER_UN_SUCCESS_XPATH = ("//p[contains(text(),' Newsletter : This email address is already registered.')]");
 
 	public final String TXT_BOX_SEARCH_TOP_XPATH = "//input[@id='search_query_top']";
 	public final String BTN_SUBMIT_SEARCH_TOP_XPATH = ("//button[@class='btn btn-default button-search']");
@@ -52,8 +59,13 @@ public interface HomePageProperties {
 	public final String MENU_TSHIRTS_XPATH = "//*[@id=\"block_top_menu\"]/ul/li[3]/a";
 	public final String MENU_BRUTEFORCE_XPATH = "//a[@title='BruteForce']";
 
+
+
 	public final String HOME_FEATURE_PRODUCT_TSHIRTS_XPATH = ("//ul[@id='homefeatured']/li[1]/div/div[2]/h5/a");
 
+	public final String FEATURE_PRODUCTS_NAME_LISTS_XPATH = "//ul[@id='homefeatured']/li/div[1]/div[2]/h5/a";
+	public final String FEATURE_PRODUCTS_BOX_LISTS_XPATH = "//ul[@id='homefeatured']/li";
+	public final String FEATURE_PRODUCTS_QUICK_VIEW_LISTS_XPATH = "//ul[@id='homefeatured']/li/div/div/div/a[@class = 'quick-view']/span";
 	public final String FEATURE_PRODUCTS_XPATH = "//img[@class='replace-2x img-responsive' and @itemprop='image']";
 	public final String CHECKOUT_CART_XPATH = "//a[@title='View my shopping cart']";
 	public final String CHECKOUT_CART_EMPTY_XPATH = "//span[@class='ajax_cart_no_product']";

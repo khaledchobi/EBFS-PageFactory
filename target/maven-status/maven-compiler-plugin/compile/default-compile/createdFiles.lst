@@ -13,5 +13,6 @@ com/ebfs/qa/properties/ContactsPageProperties.class
 com/ebfs/qa/util/WebEventListener.class
 com/ebfs/qa/util/TestUtil.class
 com/ebfs/qa/pages/ProductCategoryPage.class
+com/qa/ExtentReportListener/MyListener.class
 com/ebfs/qa/properties/TestUtilProperties.class
 com/ebfs/qa/base/TestBase.class

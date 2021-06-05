@@ -1,11 +1,9 @@
 package com.ebfs.qa.testcases;
 
 
+import com.qa.ExtentReportListener.TestListener;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import com.aventstack.extentreports.Status;
 import com.ebfs.qa.base.TestBase;
@@ -36,7 +34,7 @@ public class ContactsPageTest extends TestBase{
 	/**
 	 * @throws InterruptedException
 	 */
-	@BeforeMethod
+	@BeforeMethod(groups= {"BAF"})
 	public void setUp() throws InterruptedException {
 		
 		initialization();
@@ -46,7 +44,7 @@ public class ContactsPageTest extends TestBase{
 		contactsPage = homePage.clickOnContactsLink();
 	}
 	
-	@Test(priority=19)
+	@Test(priority=19, groups = {"SmokeTest"})
 	public void verifyContactsPageLabel(){
 		ExtentTestManager.getTest().log(Status.INFO, "Verify Contact Us Page Label");
 		Assert.assertTrue(contactsPage.verifyContactsLabel(), ContactsPageTestProperties.ERROR_MSG);
@@ -60,10 +58,11 @@ public class ContactsPageTest extends TestBase{
 	}
 	
 	
-	@AfterMethod
+	@AfterMethod(groups= {"BAF"})
 	public void tearDown(){
 		driver.quit();
 	}
+
 	
 		
 }

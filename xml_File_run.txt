@@ -1,0 +1,12 @@
+
+To simple run: testng.xml file.
+
+To run group edit first in testng_regression.xml and
+then edit the suite path of testng_runner.xml file and then run
+testng_sanity.xml file to get result.
+
+To run group edit first in testng_smoke_test.xml and
+then edit the suite path of testng_runner.xml file and then run
+testng_sanity.xml file to get result.
+
+I have to run testng_runner.xml file to get the actual result.

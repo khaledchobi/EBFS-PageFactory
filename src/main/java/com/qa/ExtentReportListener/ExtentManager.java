@@ -34,7 +34,7 @@ public class ExtentManager {
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
         htmlReporter.config().setChartVisibilityOnOpen(true);
-        htmlReporter.config().setTheme(Theme.STANDARD);
+        htmlReporter.config().setTheme(Theme.DARK);
         htmlReporter.config().setDocumentTitle(reportFileName);
         htmlReporter.config().setEncoding("utf-8");
         htmlReporter.config().setReportName(reportFileName);

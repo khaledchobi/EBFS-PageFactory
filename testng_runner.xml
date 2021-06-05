@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EBFS Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.TestListener" />
+	</listeners>
+
+
+	<suite-files>
+		<suite-file path="./testng_smoke_test.xml"/>
+	</suite-files>
+</suite>

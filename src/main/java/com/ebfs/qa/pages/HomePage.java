@@ -15,6 +15,9 @@ public class HomePage extends TestBase {
 	@CacheLookup
 	WebElement logo;
 
+	@FindBy(xpath = HomePageProperties.IMG_LOGO_XPATH)
+	WebElement logoSignIn;
+
 	@FindBy(xpath = HomePageProperties.LNK_CONTACT_US_XPATH)
 	WebElement contactsLink;
 
@@ -41,6 +44,9 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath = HomePageProperties.FEATURE_PRODUCTS_XPATH)
 	WebElement featureProducts;
+
+	@FindBy(xpath = HomePageProperties.FEATURE_PRODUCTS_NAME_LISTS_XPATH)
+	WebElement featureProductsList;
 
 	@FindBy(xpath = HomePageProperties.CHECKOUT_CART_XPATH)
 	WebElement checkoutCart;
@@ -101,6 +107,9 @@ public class HomePage extends TestBase {
 	public boolean verifyLogoDisplayed(){
 		return logo.isDisplayed();
 	}
+	public boolean verifySignInLogoDisplayed(){
+		return logoSignIn.isDisplayed();
+	}
 	
 	public ContactsPage clickOnContactsLink(){
 		contactsLink.click();
@@ -140,6 +149,11 @@ public class HomePage extends TestBase {
 	public boolean verifyFeatureProductsDisplayed(){
 		return featureProducts.isDisplayed();
 	}
+
+	public boolean verifyFeatureProductsListDisplayed(){
+		return featureProductsList.isDisplayed();
+	}
+
 
 	public boolean verifyCheckoutCartDisplayed(){
 		return checkoutCart.isDisplayed();

@@ -1,0 +1,21 @@
+Some Example:
+1. Scenario Or Scenario Outline Level:
+@FunctionalTest    // This is how tag in Feature file at Scenario level
+@SmokeTest
+Scenario: Scenario1
+Given This is Scenario1
+//Below Diff Configuration at Runner file
+Single tag:  tags= {“@SmokeTest”}
+We can use Multiple tags:
+          tags= {“@SmokeTest or @RegressionTest”}   // OR condition
+          tags=  {“@SmokeTest and @RegressionTest”}   //AND Condition
+          tags=  {“(@SmokeTest or @SanityTest) and @RegressionTest”}
+Skip or Ignore –
+          tags=  {“@SmokeTest and not @RegressionTest”}   //Skip @RegressionTest
+Skip particular scenario–
+          tags=  {“not @SmokeTest”}   //Skip particular Test
+          tags=  {“not @SmokeTest and not @SanityTest”}   //Skip 2 Tests
+
+2. Feature File Level:
+@FunctionalTest    // This is how tag in Feature file at Feature level
+Feature: Using of tags in Cucumber

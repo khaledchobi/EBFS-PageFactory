@@ -14,6 +14,9 @@ public class SignInPage extends TestBase {
     @FindBy(xpath = SignInPageProperties.SIGN_IN_LINK)
     WebElement signInLink;
 
+    @FindBy(xpath = SignInPageProperties.PAGE_TITLE)
+    WebElement pageTitle;
+
 
     @FindBy(id="id_contact")
     WebElement subjectHeading;
@@ -39,6 +42,12 @@ public class SignInPage extends TestBase {
     public boolean verifySignInLink(){
         return signInLink.isDisplayed();
     }
+
+    public boolean getPageTitle(){
+        return pageTitle.isDisplayed();
+    }
+
+
 
     /*public SignInPage clickOnSignInLink(){
         signInLink.click();

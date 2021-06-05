@@ -7,4 +7,6 @@ public interface SignInPageProperties {
 
     public final String SIGN_IN_LINK = "http://ebfs.bruteforcesolution.net/ebfs/index.php?controller=authentication&back=my-account";
 
+    public final String PAGE_TITLE = "My account - eBFS - the power of choice";
+
 }
