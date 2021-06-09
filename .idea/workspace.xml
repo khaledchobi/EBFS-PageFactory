@@ -4,47 +4,78 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e100006-fd9f-40d8-b122-afb834ab5bf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestReport/Test-Automaton-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestReport/Test-Automaton-Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ebfs/qa/testdata/EBFSTestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebfs/qa/testdata/EBFSTestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/EBFS-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/base/OthersMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/base/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/pages/ContactsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/pages/ProductCategoryPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/pages/SignInPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/ContactsPageProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/HomePageProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/ProductCategoryPageProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/SignInPageProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/TestBaseProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/TestUtilProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/util/TestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/util/WebEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/ExtentReportListener/ExtentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/ExtentReportListener/ExtentTestManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/ExtentReportListener/TestListener.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EBFS Application Test Automation Test Suite/EBFS App Test Cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/EBFS Application Test Automation Test Suite/EBFS App Test Cases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EBFS Application Test Automation Test Suite/EBFS App Test Cases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/EBFS Application Test Automation Test Suite/EBFS App Test Cases.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.ebfs.qa.testcases.ProductCategoryPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EBFS Application Test Automation Test Suite/EBFS App Test Cases.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EBFS Application Test Automation Test Suite/EBFS App Test Cases.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.ebfs.qa.testcases.SignInPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/EBFS App Test Cases.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcase/properties/ContactsPageTestProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcase/properties/HomePageTestProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcase/properties/ProductCategoryPageTestProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcase/properties/SignInPageTestProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/ContactsPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/HomePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/ProductCartSummaryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/ProductCategoryPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/SignInPageTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,12 +207,84 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/khaledhasan/Desktop/Java_Github/Frame_Work/EBFS-PageFactory/.idea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/khaled-hasan" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -189,65 +292,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="89" key="#Project_Structure" timestamp="1608931714814">
+    <state x="319" y="170" width="1194" height="641" key="DiffContextDialog" timestamp="1622934362478">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="297" y="89" key="#Project_Structure/0.25.1680.1025@0.25.1680.1025" timestamp="1608931714814" />
-    <state x="599" y="301" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609723639077">
+    <state x="319" y="170" width="1194" height="641" key="DiffContextDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1622934362478" />
+    <state width="1352" height="164" key="GridCell.Tab.0.bottom" timestamp="1622934496378">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="599" y="301" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1609723639077" />
-    <state x="231" y="205" width="1156" height="657" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1610081292236">
+    <state width="1352" height="164" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1622934496378" />
+    <state width="1352" height="164" key="GridCell.Tab.0.center" timestamp="1622934496378">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="231" y="205" width="1156" height="657" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1610081292236" />
-    <state width="1314" height="169" key="GridCell.Tab.0.bottom" timestamp="1610747734640">
+    <state width="1352" height="164" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1622934496378" />
+    <state width="1352" height="164" key="GridCell.Tab.0.left" timestamp="1622934496377">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1314" height="169" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1610747734640" />
-    <state width="1314" height="169" key="GridCell.Tab.0.center" timestamp="1610747734640">
+    <state width="1352" height="164" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1622934496377" />
+    <state width="1352" height="164" key="GridCell.Tab.0.right" timestamp="1622934496378">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1314" height="169" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1610747734640" />
-    <state width="1314" height="169" key="GridCell.Tab.0.left" timestamp="1610747734640">
+    <state width="1352" height="164" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1622934496378" />
+    <state x="636" y="215" key="RollbackChangesDialog" timestamp="1622934148735">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1314" height="169" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1610747734640" />
-    <state width="1314" height="169" key="GridCell.Tab.0.right" timestamp="1610747734640">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1314" height="169" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1610747734640" />
-    <state width="1314" height="275" key="GridCell.Tab.1.bottom" timestamp="1609302222566">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1314" height="275" key="GridCell.Tab.1.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1609302222566" />
-    <state width="1314" height="275" key="GridCell.Tab.1.center" timestamp="1609302222565">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1314" height="275" key="GridCell.Tab.1.center/0.25.1680.1025@0.25.1680.1025" timestamp="1609302222565" />
-    <state width="1314" height="275" key="GridCell.Tab.1.left" timestamp="1609302222565">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1314" height="275" key="GridCell.Tab.1.left/0.25.1680.1025@0.25.1680.1025" timestamp="1609302222565" />
-    <state width="1314" height="275" key="GridCell.Tab.1.right" timestamp="1609302222565">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1314" height="275" key="GridCell.Tab.1.right/0.25.1680.1025@0.25.1680.1025" timestamp="1609302222565" />
-    <state x="457" y="207" key="SettingsEditor" timestamp="1610485539912">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="457" y="207" key="SettingsEditor/0.25.1680.1025@0.25.1680.1025" timestamp="1610485539912" />
-    <state x="554" y="382" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1609087154708">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="554" y="382" key="com.intellij.javaee.MapExternalResourceDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1609087154708" />
-    <state x="362" y="222" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609302047900">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="362" y="222" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1680.1025@0.25.1680.1025" timestamp="1609302047900" />
-    <state x="624" y="323" width="670" height="676" key="search.everywhere.popup" timestamp="1610681572906">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="624" y="323" width="670" height="676" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1610681572906" />
+    <state x="636" y="215" key="RollbackChangesDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1622934148735" />
   </component>
 </project>
