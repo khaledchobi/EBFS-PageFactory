@@ -1,0 +1,33 @@
+pipeline{
+agent any
+stages 
+{
+stage('Build') 
+{
+steps{
+echo "Building the Code.........."
+sh "/Users/khaledhasan/Desktop/Java_Github/Selenium_Tools/apache-maven-3.6.3/bin/mvn clean install"
+}
+}
+stage('Test') 
+{
+steps{
+echo "Testing the Code.........."
+sh "/Users/khaledhasan/Desktop/Java_Github/Selenium_Tools/apache-maven-3.6.3/bin/mvn test"
+}
+}
+stage('Compile') 
+{
+steps{
+echo "Compiling the Project.........."
+sh "/Users/khaledhasan/Desktop/Java_Github/Selenium_Tools/apache-maven-3.6.3/bin/mvn compile"
+}
+}
+stage('Deploy') 
+{
+steps{
+echo "Deploying the Project.........."
+}
+}
+}
+}
