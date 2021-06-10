@@ -9,73 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e100006-fd9f-40d8-b122-afb834ab5bf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestReport/Test-Automaton-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestReport/Test-Automaton-Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ebfs/qa/testdata/EBFSTestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebfs/qa/testdata/EBFSTestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EBFS-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/base/OthersMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/base/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/pages/ContactsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/pages/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/pages/ProductCategoryPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/pages/SignInPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/ContactsPageProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/HomePageProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/ProductCategoryPageProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/SignInPageProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/TestBaseProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/properties/TestUtilProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/util/TestUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ebfs/qa/util/WebEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/ExtentReportListener/ExtentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/ExtentReportListener/ExtentTestManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/ExtentReportListener/TestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EBFS Application Test Automation Test Suite/EBFS App Test Cases.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EBFS Application Test Automation Test Suite/EBFS App Test Cases.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.ebfs.qa.testcases.SignInPageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/EBFS App Test Cases.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/EBFS Application Test Automation Test Suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcase/properties/ContactsPageTestProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcase/properties/HomePageTestProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcase/properties/ProductCategoryPageTestProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcase/properties/SignInPageTestProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/ContactsPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/HomePageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/ProductCartSummaryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/ProductCategoryPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ebfs/qa/testcases/SignInPageTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +48,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/khaledhasan/Desktop/Java_Github/Frame_Work/EBFS-PageFactory/testng.xml">
     <configuration name="ProductCategoryPageTest.verifySortFunctionalityTest" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -316,5 +255,9 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="636" y="215" key="RollbackChangesDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1622934148735" />
+    <state x="296" y="211" key="new project wizard" timestamp="1623328109853">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="296" y="211" key="new project wizard/0.25.1680.1025@0.25.1680.1025" timestamp="1623328109853" />
   </component>
 </project>
